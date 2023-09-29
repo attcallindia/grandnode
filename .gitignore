@@ -171,3 +171,6 @@ Grand.Web/App_Data/Download/*
 !Grand.Web/App_Data/Download/Index.htm
 Grand.Web/App_Data/TempUploads/*
 !Grand.Web/App_Data/TempUploads/Index.htm
+/.github/workflows/ShivaMeenachi.yml
+/Grand.Web/Properties/ServiceDependencies/ShivaMeenachi - Web Deploy/profile.arm.json
+/.gitignore

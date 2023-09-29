@@ -193,9 +193,6 @@ namespace Grand.Web.Controllers
                     PluginManager.MarkAllPluginsAsUninstalled();
                     var pluginFinder = _serviceProvider.GetRequiredService<IPluginFinder>();
                     var plugins = pluginFinder.GetPlugins<IPlugin>(LoadPluginsMode.All)
-                        .ToList()
-                        .OrderBy(x => x.PluginDescriptor.Group)
-                        .ThenBy(x => x.PluginDescriptor.DisplayOrder)
                         .ToList();
 
                     foreach (var plugin in plugins)
